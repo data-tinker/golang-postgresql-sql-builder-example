@@ -11,7 +11,7 @@ PostgreSQL, SQL query builder and migrations usage example in Go
 
 ## Technologies Used
 * [Go](https://go.dev/)
-* [lib/pq](github.com/lib/pq)
+* [lib/pq](https://github.com/lib/pq)
 * [go-jet](https://github.com/go-jet/jet/)
 * [golang-migrate](https://github.com/golang-migrate/migrate)
 * [PostgreSQL](https://www.postgresql.org/)
