@@ -11,4 +11,8 @@ build:
 	docker build -t golang-postgresql-sql-builder-example .
 
 run:
-	docker-compose up
+	docker-compose up -d postgres
+	sleep 10
+	make migrate
+	make jet-gen
+	docker-compose up app
