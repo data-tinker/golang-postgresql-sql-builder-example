@@ -4,7 +4,7 @@ go 1.21
 
 require (
 	github.com/go-jet/jet/v2 v2.10.1
-	github.com/lib/pq v1.10.8
+	github.com/lib/pq v1.10.8 // concider using pgx
 )
 
 require (
